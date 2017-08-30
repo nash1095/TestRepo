@@ -1,0 +1,326 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: black;*/
+	/*background-color:#0C115D;*/
+	background-color:#06173F;
+    text-align: center;
+    border-width: 1px 0;
+	
+	-webkit-box-shadow: 0 8px 6px -6px #808080;
+        -moz-box-shadow: 0 8px 6px -6px #808080;
+             box-shadow: 0 8px 6px -6px #808080;
+	
+	
+  }
+
+
+
+  li {
+    /*float:left;*/
+    display: inline;
+    text-align: center;
+  }
+
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-family: verdana;
+    font-size: 15px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+	  /*#5e5e5e;*/
+    background-color: #070A3E;
+  }
+  
+ #navbar{
+	 overflow: hidden;
+	 position: fixed;
+	 top: 0;
+	 width: 100%;
+	 z-index:+1;
+ }
+
+
+  html,body, p, h1 {
+    margin:0;
+    padding:0;
+  }
+  
+
+  /* intro */
+
+
+  #header1{  
+    top:170px;
+    position:absolute;
+    left: 550px;
+    margin: auto 0;
+    padding :0;
+    font-family: 'karla', sans-serif;
+    font-size: 40px;
+  }
+
+  #intro{
+	  /*background-color: #fff;*/
+  	background-color: #DCDCDC;
+  	width: 100%;
+  	height: 500px;
+    box-shadow: 2.5px 2.5px 2.5px #d7d7d7;
+  }
+
+  #im{
+    position: relative;
+    left: 200px;
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;	
+  }
+  
+  #para1{
+    text-align: center;
+    color:grey;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+    top:250px;
+    left:550px;
+    position: absolute;
+
+  }
+  #butn1{
+   background-color: #3ea6cf;
+   color: white;
+   border: none;
+   padding: 15px 50px; 
+   font-size: 13px;
+   position:absolute;
+   left:550px;
+   border-radius: 5px;
+   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+   font-size: 15px;
+   top: 360px;
+ }
+
+ #butn1:hover{
+  background-color: #3271e7; /*dark blue */
+ }
+
+
+ /* icons*/
+ #header2{
+  text-align: center;
+  position: absolute;
+  padding: 50px 500px 0px 500px;
+  font-family: 'karla', sans-serif;
+  font-size: 30px;
+}
+
+#para2{
+  text-align: center;
+  color:grey;
+  font-family:"Times New Roman", Times, serif;
+  font-size: 100%;
+  padding: 120px 340px 0px 300px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 18px;
+
+}
+
+#midsec{
+  background-color: #ebebe0;
+  height:690px;
+  position: relative;
+  top:-15px;
+  width: 100%;
+  box-shadow: 2.5px 2.5px 2.5px #e6e6e6;
+}
+
+#icons{
+  border: none;
+  background-color: transparent;
+  border-collapse: separate;    
+  width: 80%
+  height: 50%;
+  padding: 20px 200px 0px 200px;
+}
+
+td{
+  padding: 10px;
+  border-collapse: separate;   
+  border:none;
+
+}
+
+.square{
+  background-color: #ffffff;
+  width: 290px;
+  height: 300px;
+  box-shadow: 2.5px 2.5px 2.5px #e6e6e6; 
+  border: 0.2px solid #d1d0d0;        
+}
+
+.sqTitle{
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-family:verdana;
+  font-size: 18px;
+}
+
+.sqSubtitle{
+  text-align: center;
+  color: #5a5a5a;
+  position: relative;
+  top: 35px;  
+  margin-left: 1cm;     
+  margin-right: 1cm; 
+   font-family: candara;
+   font-size: 17px;  
+}
+
+.icons{
+  margin-left: 2.5cm;
+  margin-right: 2.5cm; 
+  position:relative;
+  top: 40px;
+}
+
+
+
+
+#para3{
+  text-align: center;
+  color:grey;
+  font-family:"Times New Roman", Times, serif;
+  font-size: 100%;
+  padding: 25px 340px 0px 300px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 18px;
+}
+
+#butn2{
+ background-color:  #3ea6cf;
+ color: white;
+ border: none;
+ padding: 15px 50px;
+ font-size: 13px;
+ position: relative;
+ left: 500px;
+ right: 500px;
+ top: 30px;
+ border-radius: 5px;
+ font-family: 'Helvetica Neue', Helvetica, sans-serif;
+ font-size: 15px;
+
+}
+
+#butn2:hover{
+background-color: #3271e7; /*dark blue */
+}
+
+
+
+#gal{
+  position:relative;
+  top: -39px;
+  /*background-color: #f4f4f4;*/
+  background-color:#DCDCDC;
+  height: 970px;
+  text-align: center;
+}  
+
+#mainTitle{
+ text-align: center;
+ padding: 50px 450px 5px 450px;
+ font-family: 'karla', sans-serif;
+ font-size: 28px;
+}
+
+#subTitle{
+ text-align: center;
+ padding: -50px 500px 0px 500px;
+ font-family: 'karla', sans-serif;
+ font-size: 18px;
+ font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+            #tblGal{
+              padding: 20px 190px 0px 190px;
+              border: none;
+              background-color: transparent;
+              border-collapse: separate;    
+              width: 80%
+              height: 50%;
+         /*     margin-left: 5cm;
+              margin-right:5cm; */
+             }
+
+             td{
+              padding: 10px;
+              border-collapse: separate;   
+              border:none;
+             
+             }
+
+             .image{
+              background-color: #ffffff;
+              width: 299px;
+              height: 300px;
+              box-shadow: 2.5px 2.5px 2.5px #e6e6e6;
+              transition: all 1s ease-in;
+              opacity: 1;
+             }
+
+             .titleThumb{
+              text-align: center;
+              font-family:verdana;
+              font-size: 15px;
+              color: #000;    
+             }
+
+             .subtitleThumb{
+              text-align: center;
+              color: #3c3c3c;
+              position: relative;
+              top: -10px;
+              left:18px; 
+              font-family: candara;
+              font-size: 16px;  
+              width: 85%;    
+             }
+
+            /* .image:hover{
+              border: 1px solid #000000; 
+              opacity: 1; */
+
+
+              #buttonTouch{
+
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            border-radius: 5px;
+            background-color: #3ea6cf; /* blue */
+            border: none;
+            color: white;
+            position: relative;
+            top: 40px;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+         /*   margin-left:15cm;
+            margin-right:15cm; */
+
+
+            }
+			#buttonTouch:hover{
+			background-color: #3271e7; /*dark blue */
+			}
